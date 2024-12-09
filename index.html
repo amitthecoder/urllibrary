@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coming Soon</title>
+    <title>Technologies Used</title>
     <style>
         body {
             background-color: #2B2B2B;
@@ -15,13 +15,82 @@
             margin: 0;
             font-family: Arial, sans-serif;
         }
-        .coming-soon {
-            font-size: 2em;
-            text-align: center;
+        .container {
+            width: 90%;
+            margin: 0 auto;
+        }
+        .columns {
+            display: flex;
+            justify-content: space-between;
+        }
+        .column {
+            width: 22%;
+        }
+        .column h2 {
+            margin-top: 0;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background-color: #3C3F41;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        @media (max-width: 768px) {
+            .columns {
+                flex-direction: column;
+            }
+            .column {
+                width: 100%;
+                margin-bottom: 20px;
+            }
         }
     </style>
 </head>
 <body>
-    <div class="coming-soon">Coming Soon</div>
+    <div class="container">
+        <h1>Technologies Used</h1>
+        <div class="columns">
+            <div class="column">
+                <h2>Programming Languages</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h2>Frameworks</h2>
+                <ul>
+                    <li>React</li>
+                    <li>Angular</li>
+                    <li>Django</li>
+                    <li>Flask</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h2>Tools</h2>
+                <ul>
+                    <li>Git</li>
+                    <li>Docker</li>
+                    <li>Webpack</li>
+                    <li>npm</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h2>Technologies</h2>
+                <ul>
+                    <li>REST APIs</li>
+                    <li>GraphQL</li>
+                    <li>Microservices</li>
+                    <li>Cloud Computing</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
