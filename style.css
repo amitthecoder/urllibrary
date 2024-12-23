@@ -16,10 +16,6 @@ body{
     line-height: 1.4;
     color: var(--dark);
 }
-img{
-    width: 100%;
-    display: block;
-}
 .container{
     max-width: 1320px;
     margin: 0 auto;
@@ -29,7 +25,6 @@ img{
 /* blog */
 .blog{
     background: #f9f9f9;
-    padding: 4.5rem 0;
 }
 .blog-content{
     margin: 2rem 0;
