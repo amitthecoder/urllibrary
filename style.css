@@ -170,7 +170,7 @@ a{
     font-family: 'DM Sans', sans-serif;
     font-weight: bold;
     align-self: center;
-    font-size: 32px;
+    font-size: 30px;
 }
 
 .collapse{
@@ -178,7 +178,7 @@ a{
 }
 
 .nav-link{
-    font-size: 18px;
+    font-size: 30px;
     margin: 12px;
     color: var(--dark);
     font-family: 'Poppins', sans-serif;
