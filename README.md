@@ -1,6 +1,6 @@
-# IllustrateMe
+# URL Library
 
-IllustrateMe - A web library is a collection of Websites available on the internet that can be created for various purposes such as movies, games, blogs, and more.
+A URL Library is a collection of Websites available on the internet that can be created for various purposes such as movies, games, blogs, and more.
 
 ## Table of Contents
 - [Contributing](CONTRIBUTION.md)
