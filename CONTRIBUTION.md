@@ -1,6 +1,6 @@
 ## Contribution Guide
 
-Thank you for considering contributing to the Web Library project! We welcome contributions from everyone. By participating in this project, you agree to abide by our code of conduct.
+Thank you for considering contributing to the URL Library project! We welcome contributions from everyone. By participating in this project, you agree to abide by our code of conduct.
 
 ### How to Contribute
 
